@@ -1,4 +1,4 @@
-#declaring variables.
+#declaring variables
 a = 14
 b = 12
 c = 'gohul' #we can also use double quotes.
@@ -13,5 +13,7 @@ s = x+y+z
 print(x,y,z)
 print(s)
 print(type(s))
-
-
+name = "Gohul"
+number=123
+print(name)
+print(number)
