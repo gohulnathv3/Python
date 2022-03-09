@@ -1,0 +1,7 @@
+<iframe
+  width="100%"
+  height="100%"
+  frameborder="0"
+  src="https://pythontutor.com/iframe-embed.html#code=import%20random%0Adef%20computer_guess%28x%29%3A%0A%20%20%20%20low%20%3D%201%0A%20%20%20%20high%20%3D%20x%0A%20%20%20%20feedback%20%3D%20''%0A%20%20%20%20while%20feedback%20!%3D%20'c'%3A%0A%20%20%20%20%20%20%20%20if%20low%20!%3D%20high%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20guess%20%3D%20random.randint%28low,%20high%29%0A%20%20%20%20%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20guess%20%3D%20low%0A%20%20%20%20%20%20%20%20feedback%20%3D%20input%28%0A%20%20%20%20%20%20%20%20%20%20%20%20f%22Is%20%7Bguess%7D%20is%20too%20High%20%28H%29,%20too%20low%20%28L%29,%20Correct%20%28C%29%3F%3F%3F%20%20%22%29.lower%28%29%0A%20%20%20%20%20%20%20%20if%20feedback%20%3D%3D%20'h'%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20high%20%3D%20guess-1%0A%20%20%20%20%20%20%20%20elif%20feedback%20%3D%3D%20'l'%3A%0A%20%20%20%20%20%20%20%20%20%20%20%20low%20%3D%20guess%2B1%0A%20%20%20%20print%28f%22Yay,%20your%20guessing%20number%20is%20%7Bguess%7D%22%29%0A%0A%0Acomputer_guess%281000%29&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%22h%22,%22l%22,%22h%22,%22h%22,%22l%22,%22l%22,%22h%22,%22h%22,%22h%22,%22h%22,%22l%22,%22h%22,%22l%22,%22h%22,%22h%22,%22c%22%5D&textReferences=false"
+>
+</iframe>

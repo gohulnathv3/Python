@@ -13,4 +13,4 @@ def guess(x):
     print("Yay, You guessed the correct number")
 
 
-guess(10)
+guess(100)
